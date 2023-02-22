@@ -1,3 +1,4 @@
+console.log("function with no argument and no return");
 function fruitName(){
 console.log("fruit name is: Apple");
 }
@@ -8,7 +9,7 @@ function flowerName(){
 }
 flowerName();
 
-console.log("---------------------step2-----------------------");
+console.log("function with argument and no return");
 
 var firstName="Arti";
 var lastName="mote";
@@ -49,6 +50,6 @@ function addThreeValues(value1, value2, value3) {
   var  sumResult= addThreeValues (10.23,600,40);
 console.log(sumResult);
 
-var  sumResult= addThreeValues(" Hello ", " Good ", " Morning ");
+var  sumResult= addThreeValues(" Hello ", " Good ", " Morning t");
 console.log(sumResult)
 
