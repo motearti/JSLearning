@@ -14,6 +14,7 @@ console.log("function with argument and no return");
 var firstName="Arti";
 var lastName="mote";
 var collegeName ="Bmit,solapur";
+
 function personalDetails ( firstName, lastName, collegeName){
 console.log("my first name is: ",firstName);
 console.log("my last name is:",lastName);
@@ -35,10 +36,9 @@ function swapValuesDude(value1, value2){
     value1 = value2;
     value2 = temp;
     console.log("after swap:", value1, value2);
-
+    console.log("------------------------------");
 }
 swapValuesDude(name1, name2);
-console.log("------------------------------");
 swapValuesDude(num1, num2);
 
 console.log("----------------------------------step4-----------------------------");
@@ -50,6 +50,6 @@ function addThreeValues(value1, value2, value3) {
   var  sumResult= addThreeValues (10.23,600,40);
 console.log(sumResult);
 
-var  sumResult= addThreeValues(" Hello ", " Good ", " Morning t");
+var  sumResult= addThreeValues(" Hello ", " Good ", " Morning ");
 console.log(sumResult)
 

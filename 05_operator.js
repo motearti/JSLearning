@@ -66,14 +66,14 @@ console.log(result);
 
 //function greaterNumber(num1,num2)
 
-function wordLength(){
-var wordLength= wordLength.length;
-wordLength%2==0 ? "Even" : "odd";
-return result;
+function wordLength(word){
+var wordLength= word.length;
+ wordLength= word.length%2==0 ? "Even" : "odd";
+return wordLength;
 }
 
 var result = wordLength("JavaScript");
-console.log(`Word "JavaScript" has ${result} length` );
+console.log(`Word "JavaScript" has ${wordLength} length` );
 // var result = wordLength("Google");
 console.log(`Word "Google" has ${wordLength("Google Chrome")} length` );
 

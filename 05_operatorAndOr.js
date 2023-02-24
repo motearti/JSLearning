@@ -1,4 +1,4 @@
-console.log("++++++++++++++++++++++++++++++==============assignment 3==================++++++++++++++++++++++++=");
+console.log("++++++++++++++++++++++++++++++==============Assignment 3==================++++++++++++++++++++++++=");
 function tcsEligibility( gradScore ,hscScore ,sscScore ,candidateName){
    var result =gradScore>=70 || hscScore >= 80 || sscScore>90 ?`Congrates "${candidateName}" you are eligible for tcs interview` :`Else Unfortunately " ${candidateName}" you are not eligible for interview`;
    console.log(result);
