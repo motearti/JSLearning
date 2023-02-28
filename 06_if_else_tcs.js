@@ -10,3 +10,5 @@ function tcsInterviewEligible (gradScore ,hscScore ,sscScore ,candidateName){
 tcsInterviewEligible(80 ,86,90,"Arti");
 tcsInterviewEligible(70 ,65,55,"Reshma");
 tcsInterviewEligible(60,79,88,"Pravin");
+
+if ()
