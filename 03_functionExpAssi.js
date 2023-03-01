@@ -1,5 +1,5 @@
 console.log("*******************Leap Year*****************************");
-function checkLeapYear(leapYear) {
+var checkLeapYear = function (leapYear) {
     if( leapYear=="number" ||leapYear===null || leapYear==undefined || isNaN(leapYear) ){
         console.log(`Invalid Data "${leapYear}": provide valid data`);
     } 
