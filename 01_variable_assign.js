@@ -15,7 +15,7 @@ console.log(myLove);
 
 console.log("************************step 3.************************");
 var firstName="firstName= Arti", lastName="lastName= mote", age="age= 24" , address="address= at-sangola dist-solapur", pincode="pincode= 413307", gender="gender= female", isMarried="isMarried= Yes";
-console.log(firstName);
+console.log(firstName );
 console.log(lastName);
 console.log(age);
 console.log(address);
