@@ -18,7 +18,7 @@ let even=[];
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element=arrayNumbers[index]
   if (element%2==0) {
-    even.push(arrayNumbers[index]);
+    even.push(element);
   }
   
 }
@@ -28,7 +28,7 @@ let odd=[];
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element=arrayNumbers[index]
   if(element %2 !==0){
-    odd.push(arrayNumbers[index]) ;
+    odd.push(element) ;
   }
 
   }
