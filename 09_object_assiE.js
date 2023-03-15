@@ -51,3 +51,8 @@ let yesBank={
  }    
  }
  yesBank. showDetails();
+
+
+ //add object
+ const arrayOfBanks=[sbiBank,axisBank,hdfcBank,yesBank];
+ 
