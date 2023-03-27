@@ -34,7 +34,7 @@ const player = {
     totalCenturies : 46,
     isMarries: true
 }
-//Object.freeze(player);
+Object.freeze(player);
 player.totalVicket = 120; //Adding new property - Not allowed as object is freezed
 delete player.totalCenturies;// deleting property - Not allowed as object is freezed
 player.fullName = "King Kohli"; // Updating existing property - Not allowed as object is freezed

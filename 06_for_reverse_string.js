@@ -53,16 +53,15 @@ var firstWordLength =function(strGiven){ //"focus is the key"
 
   var firstWord="";//focus
   for (let index=0 ;index <strGiven.length; index++){
-
-    var char = strGiven.charAt(index);
-    firstWord= firstWord+char;//f+o
-if(char==" "){
+   var char = strGiven.charAt(index);
+  if(char==" "){
   break;
+} 
+firstWord= firstWord+char;//f+o
 }
-  }
-  return firstWord;
+ return firstWord;
 }
 
-if (string == null || string == undefined || isNaN(string)) {
-  console.log(`invalid data `);
-}
+
+let word =firstWordLength("focus is the key");
+console.log(word);

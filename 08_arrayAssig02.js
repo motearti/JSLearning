@@ -53,9 +53,7 @@ for (let index = 0; index < arrayNumbers.length; index++) {
   }
 }
 console.log(`sum of all odd positioned element is: ${sumodd}`);
-console.log(
-  `-----------------------------------step8-------------------------`
-);
+console.log(`-----------------------------------step8-------------------------`  );
 let sumof = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element = arrayNumbers[index];

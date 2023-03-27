@@ -1,7 +1,7 @@
 function doHomerWork(callback){
     console.log("Doing homework.. ");
     console.log("Finally Homework is completed...");
-    //callback();
+    callback();
     let submitHomeWork = function (){
         console.log("Hey we both completed homework");
         console.log("Let us submit please...");

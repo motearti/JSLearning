@@ -3,8 +3,10 @@ var countVowels = function(string){
 
 var count = 0;
 for (let index = 0; index <= string.length; index++) {
-  var char = string.charAt(index);
-  if (char == "a"|| char == "e" || char == "i" || char == "o" || char == "u" || char == "A"|| char == "E" || char == "I" || char == "O" || char == "U"){
+  var strLower= string.toLowerCase()
+  var char = strLower.charAt(index);
+  
+  if (char == "a"|| char == "e" || char == "i" || char == "o" || char == "u" ){
     count = count +1 ;
   }
 }
@@ -22,24 +24,24 @@ console.log("the  string is' Hard work and commitment is the key of success ' an
 
 console.log("**************************step2****************************");
 function lastWordCharsCount  (str) {
-    var count = ""; 
+    var lasrWord = ""; 
     
     for (let index = str.length - 1; index >= 0; index--) {
       var char = str.charAt(index); // o
       if (char == " ") {
         break;
       }
-      count = count + char;
+      lasrWord = lasrWord + char;
        // "t"+"e" ==> "te"
     }
-    return count;
+    return lasrWord.length;
   }
   var result =lastWordCharsCount ("Javascript is the language Of Internet");
-  console.log(`the  string is'Javascript is the language Of Internet ' and total char in last word: ${result.length}`);
+  console.log(`the  string is'Javascript is the language Of Internet ' and total char in last word: ${result}`);
   
   var result1 = lastWordCharsCount("I am Angular Developer");
-  console.log(`the  string is'I am Angular Developer ' and total char in last word: ${result1.length}`);
+  console.log(`the  string is'I am Angular Developer ' and total char in last word: ${result1}`);
   
   var result2 =lastWordCharsCount ("Hard work and commitment is the key of success");
-  console.log(`the  string is' Hard work and commitment is the key of success' and total char in last word : ${result2.length}`);
+  console.log(`the  string is' Hard work and commitment is the key of success' and total char in last word : ${result2}`);
   

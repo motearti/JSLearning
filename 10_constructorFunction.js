@@ -22,9 +22,9 @@ const ash = new Person("R Ashwin", "Chenai");
 ash.show();
 console.log(ash.country);
 
-const date=new Date();
+const date=new Date(); //show today date and time
 console.log(typeof date);
 console.log(date);
 
- const result = Math.pow(2,3);
+ const result = Math.pow(2,3);//show power of 2 is 3 =8
  console.log(result);

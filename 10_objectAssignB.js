@@ -20,7 +20,7 @@ const newObject ={};
 Object.assign(newObject, bankSbi,bankLocation);
 console.table(newObject);
 
-console.log(`----------------------cloning using spread operator--------------------------------------`);
+console.log(`----------------------deep cloning using spread operator--------------------------------------`);
 const cloneObject = {...bankSbi, ...bankLocation};
 console.log(cloneObject);
 

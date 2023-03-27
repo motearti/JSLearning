@@ -24,4 +24,5 @@ const keyOfMap = mapOfBank.keys();
 for (const key of keyOfMap) {
   const element = mapOfBank.get(key);
   console.log(key, element);
+  //console.log(`${key} ==> bankName:${element.bankName} ,location:${element.location}`);
 }

@@ -11,7 +11,7 @@ console.log(setOfNums.size);
 setOfNums.delete(8)
 console.log(setOfNums);
 
-setOfNums.clear()
-console.log(setOfNums);
+//setOfNums.clear()
+//console.log(setOfNums);
 
 console.log(setOfNums.values());
